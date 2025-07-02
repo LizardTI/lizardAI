@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS  # 👈 Importa o CORS
+from flask_cors import CORS
 import datetime
 from database.firebase.manager import FirebaseManager
 from integration.agents.openai import OpenAIAgents
